@@ -21,7 +21,7 @@ article_header:
 
 <!--more-->
 
-<div style="display: flex; flex-direction: row; justify-content: flex-start">
+<div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap;">
     <div style="display: table">
       <p style="display: table-cell; vertical-align: middle; height: fit-content; padding: 4rem"> 
         <b>Stefano Fontana</b> is currently a student at University of Brescia studying Computer science and engeneering.
@@ -29,5 +29,5 @@ article_header:
       </p>
     </div>
 
-    <div style="background-image: url('/assets/images/profile.jpeg'); display: block; width: 60%; padding-bottom: 60%; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
+    <div style="background-image: url('/assets/images/profile.jpeg'); display: block; width: 256px; padding-bottom: 256px; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
 </div>

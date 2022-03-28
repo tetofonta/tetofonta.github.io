@@ -49,7 +49,7 @@ Good skills in small groups management and interaction with other teams
  - Advanced git knowledge
  - Good Github knowledge including github actions
  - Jetbrains space management
- - Good knowledge of Jenkins incluing configuration e availability settings
+ - Good knowledge of Jenkins incluing configuration and availability settings
  - Proxmox: Configuration and management
  - Docker: infrastructure provisioning and deployment
  - Basic knowledge and configuration of Ceph 
