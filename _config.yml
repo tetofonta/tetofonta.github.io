@@ -224,3 +224,19 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+cv:
+    personal_data: cv/personal_data.md
+    professional_experience:
+      - cv/professional_experience/bitcoinpeople.md
+      - cv/professional_experience/sap-stage.md
+    education:
+      - cv/education/unibs-ing.md
+      - cv/education/castelli.md
+    skills: cv/skills.md
+    other:
+      - cv/other/ieee-vice-chair.md
+      - cv/other/judo.md
+
+collections:
+  - projects

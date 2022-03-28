@@ -1,5 +1,6 @@
-### 2020 until now
-#### Backend software developer for blockchain systems
+
+### Backend software developer for blockchain systems
+#### 2020 until now
 
 Currently working as programmer and internal network sistemist with the main role as backend developer’s chief.
 

@@ -21,8 +21,13 @@ article_header:
 
 <!--more-->
 
-<div style="float: right; background-image: url('/assets/images/profile.jpeg'); display: block; width: 40%; padding-bottom: 40%; background-position: center;background-size: contain;">
-</div>
+<div style="display: flex; flex-direction: row; justify-content: flex-start">
+    <div style="display: table">
+      <p style="display: table-cell; vertical-align: middle; height: fit-content; padding: 4rem"> 
+        <b>Stefano Fontana</b> is currently a student at University of Brescia studying Computer science and engeneering.
+        He works as a backend developer and has good experience with frontend developing and system administration.
+      </p>
+    </div>
 
-Stefano Fontana is currently a student at University of Brescia studying Computer science and engeneering.
-He works as backend developer and capable of frontend developing and sysadmin skills.
+    <div style="background-image: url('/assets/images/profile.jpeg'); display: block; width: 60%; padding-bottom: 60%; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
+</div>

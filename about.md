@@ -13,13 +13,26 @@ aside:
 
     <div style="padding-left: 2rem">
 
-{% capture personal_data %}{% include cv/personal_data.md %}{% endcapture %}
-{{ personal_data | markdownify }}
+      {% capture cv_personal_data%} {% include {{site.cv.personal_data}} %} {%endcapture%}
+      {{cv_personal_data | markdownify}}
 
     </div>
 </div>
 
 ## Professional Experience
+{% for experience in site.cv.professional_experience%}
+  {% include {{experience}} %}
+{%endfor%}
 
-{% include /cv/professional_experience/2020-now.md %}
-{% include /cv/professional_experience/2019.md %}
+## Education
+{% for edu in site.cv.education%}
+  {% include {{edu}} %}
+{%endfor%}
+
+## Skills
+{% include {{site.cv.skills}} %}
+
+## Other Activities and positions
+{% for oth in site.cv.other%}
+  {% include {{oth}} %}
+{%endfor%}
