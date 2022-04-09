@@ -38,3 +38,12 @@ aside:
 {% for oth in site.cv.other%}
   {% include {{oth}} %}
 {%endfor%}
+
+## Download my CV
+
+<div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+
+  <a href="https://github.com/tetofonta/tetofonta.github.io/releases/latest/download/cv.pdf" target="_blank">ENGLISH</a>
+  <a href="https://github.com/tetofonta/tetofonta.github.io/releases/latest/download/cv_it.pdf" target="_blank">ITALIAN</a>
+
+</div>
