@@ -226,17 +226,18 @@ plugins:
   - jemoji
 
 cv:
-    personal_data: cv/personal_data.md
+    personal_data: cv/personal_data/Z-personal_data.md
     professional_experience:
-      - cv/professional_experience/bitcoinpeople.md
-      - cv/professional_experience/sap-stage.md
+      - cv/professional_experience/Y-bitcoinpeople.md
+      - cv/professional_experience/Z-sap-stage.md
     education:
-      - cv/education/unibs-ing.md
-      - cv/education/castelli.md
-    skills: cv/skills.md
+      - cv/education/Y-unibs-ing.md
+      - cv/education/Z-castelli.md
+    skills: 
+      - cv/skills/Z-skills.md
     other:
-      - cv/other/ieee-vice-chair.md
-      - cv/other/judo.md
+      - cv/other/Y-ieee-vice-chair.md
+      - cv/other/Z-judo.md
 
 collections:
   - projects

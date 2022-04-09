@@ -30,7 +30,9 @@ aside:
 {%endfor%}
 
 ## Skills
-{% include {{site.cv.skills}} %}
+{% for skill in site.cv.skills%}
+  {% include {{skill}} %}
+{%endfor%}
 
 ## Other Activities and positions
 {% for oth in site.cv.other%}

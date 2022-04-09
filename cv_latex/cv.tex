@@ -1,0 +1,74 @@
+\documentclass{article}
+
+\usepackage{blindtext}
+\usepackage[a4paper, margin=25mm]{geometry}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage[smartEllipses]{markdown}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Stefano Fontana}
+\lhead{Curriculum Vitae}
+\cfoot{\thepage}
+
+\hypersetup{
+    colorlinks=false,
+    pdftitle={Curriculum Vitae, Stefano Fontana},
+    pdfpagemode=FullScreen,
+}
+\newdateformat{monthyeardate}{\monthname[\THEMONTH], \THEYEAR}
+
+\title{Curriculum Vitae}
+\author{Stefano Fontana}
+\date{\monthyeardate\today}
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\inputAllFiles#1#2{%
+    \app@exe{ls #1/*.md | xargs cat >> #2}%
+    \IfFileExists{#2}{
+        \markdownInput{#2}
+    }
+    \AtEndDocument{\app@exe{rm -f #2}}
+  }
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    \vspace{8mm}
+    \begin{minipage}{.3\textwidth}
+        \includegraphics[width=0.9\textwidth]{../assets/images/profile.jpeg}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{.5\textwidth}
+        \markdownInput{../_includes/cv/personal_data/Z-personal_data.md}
+    \end{minipage}
+    \hfill
+    \\ \\ \\
+    Stefano Fontana is currently a student at University of Brescia studying Computer science and engeneering. He works as a backend developer and has good experience with frontend developing and system administration.
+\end{abstract}
+
+\section{Professional Experience}
+\inputAllFiles{../_includes/cv/professional_experience}{profexp.md}
+
+\section{Education}
+\inputAllFiles{../_includes/cv/education}{edu.md}
+
+\section{Skills}
+\inputAllFiles{../_includes/cv/skills}{skillsdu.md}
+
+\section{Other activities}
+\inputAllFiles{../_includes/cv/other}{oth.md}
+
+
+\end{document}
