@@ -25,3 +25,12 @@ Gemfile.lock
 _site/
 .jekyll-metadata
 .jekyll-cache/
+
+_markdown_cv*/
+_markdown_cv/
+cv*.aux
+cv*.markdown.lua
+cv*.markdown.out
+cv*.out
+cv*.pdf*
+texout/

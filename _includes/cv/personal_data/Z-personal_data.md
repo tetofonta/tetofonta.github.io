@@ -8,7 +8,7 @@
 
 **Born date**: *Apr 7th 2000*
 
-**Email**: stefano.fontana.2000@gmail.com
+**Email**: me@stefanofontana.com
 
 **Email**: stefano.fontana@ieee.org
 

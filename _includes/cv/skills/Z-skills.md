@@ -34,6 +34,7 @@ Good skills in small groups management and interaction with other teams
  - Rust: Medium
  - PHP: Medium
  - Assembly (ARM and x86): Medium
+ - Siemens S7: Basic
 
 #### Known Frameworks and Libraries
 
