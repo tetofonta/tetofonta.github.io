@@ -1,10 +1,8 @@
 
 ### Languages
 
-| Language | Level |
-|:---------|:-----:|
-| Italian  | Native Language |
-| English  | B2 |
+ - **Italian**: Native Language
+ - **English**: B2
 
 ### Communication Skills
 
@@ -24,19 +22,18 @@ Good skills in small groups management and interaction with other teams
 
 #### Known Languages
 
-| Language  | Skill Level |
-| :-------  | :---------: |
-| C         | Advanced  |
-| C++       | Advanced  |
-| Java      | Advanced  |
-| Javascript| Advanced  |
-| Typescript| Advanced  |
-| SQL       | Advanced  |
-| Bash      | Advanced  |
-| Python    | Advanced  |
-| Rust      | Medium    |
-| PHP       | Medium    |
-| Assembly (ARM and x86) | Medium |
+
+ - C: Advanced
+ - C++: Advanced
+ - Java: Advanced
+ - Javascript: Advanced
+ - Typescript: Advanced
+ - SQL: Advanced
+ - Bash: Advanced
+ - Python: Advanced
+ - Rust: Medium
+ - PHP: Medium
+ - Assembly (ARM and x86): Medium
 
 #### Known Frameworks and Libraries
 
