@@ -1,6 +1,10 @@
 
-### From 2014 to 2019
+## From 2014 to 2019
 
-#### Computer science and telecommunications
+### Technical Institute Diploma in the Technological Sector, Information Technology and Telecommunications, Information Technology department
 
-I.I.S. B.Castelli, Brescia, Techincal diploma, *pre-university study*
+I.I.S. B.Castelli, Brescia (BS),
+
+Graduated with 100/100
+
+*pre-university study*

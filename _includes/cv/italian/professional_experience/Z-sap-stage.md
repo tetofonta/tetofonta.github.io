@@ -1,7 +1,7 @@
 
-### Stage formativo come SAP Developer
+## Stage formativo come SAP Developer
 
-#### 2019
+### 2019
 
 Durante questo periodo sono state acquisite competenze basilari sull'infrastruttura e lo sviluppo SAP
 

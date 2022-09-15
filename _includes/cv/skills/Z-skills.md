@@ -41,6 +41,7 @@ Good skills in small groups management and interaction with other teams
  - Medium skills administring Wordpress
  - ReactJS and AngularJS
  - express-js
+ - Nest.js
 
 #### Known tools and instruments
 
