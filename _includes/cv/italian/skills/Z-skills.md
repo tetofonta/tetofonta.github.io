@@ -40,8 +40,9 @@ Buona esperienza nella gestione di piccoli gruppi di sviluppo e interazione con 
  - Buone competenze nello sviluppo e amministrazione di Wordpress 
  - ReactJS e AngularJS
  - express-js
+ - nest.js
 
-#### Known tools and instruments
+#### Conoscenza di strumenti di sviluppo
 
  - Conoscenza avanzata di GIT
  - Buone conoscenze di Github e degli strumenti associati (Github Actions)
@@ -54,7 +55,7 @@ Buona esperienza nella gestione di piccoli gruppi di sviluppo e interazione con 
  - Sviluppo e comprensione di sistemi Blockchain
  - Bitcoin e Lightning network
 
-### Digital Skills
+### Competenze digitali
 
 Competenze avanzate in ambito di Office Automation quali formattazione testuale, fogli di calcolo e presentazioni con gli strumenti più comuni come Office e Latex
 Ottime competenze nella ricerca e utilizzo di internet

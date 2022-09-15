@@ -231,7 +231,8 @@ cv:
       - cv/professional_experience/Y-bitcoinpeople.md
       - cv/professional_experience/Z-sap-stage.md
     education:
-      - cv/education/Y-unibs-ing.md
+      - cv/education/X-unibs-ing-LM-32.md
+      - cv/education/Y-unibs-ing-L-8.md
       - cv/education/Z-castelli.md
     skills: 
       - cv/skills/Z-skills.md

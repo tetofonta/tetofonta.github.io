@@ -1,6 +1,6 @@
 
-### Backend software developer in ambiti blockchain
-#### Dal 2020 al 2022
+## Backend software developer in ambiti blockchain
+### Dal 2020 al 2022
 
 Ha lavorato come sviluppatore e sistemista interno nell'ambito di servizi sulle cryptovalute e sistemi blockchain
 
