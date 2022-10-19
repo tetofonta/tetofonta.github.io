@@ -6,5 +6,4 @@ Università degli studi di Brescia, facoltà di Ingegneria, Dipartimento di Inge
 
 Laurea di primo livello in Ingegneria Informatica -- Classe L-8
 
-
-_In attesa di laurea_
+Laureato con 108/110

@@ -7,4 +7,4 @@ Università degli studi di Brescia, facoltà di ingegneria, Information Engineer
 
 Bachelor's degree (First level) in Computer science and Engineering  Engineering - Class L-8
 
-_Waiting for graduation_
+Graduated with 108/110
