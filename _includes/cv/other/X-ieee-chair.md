@@ -1,5 +1,5 @@
 
-## Vice Chair of IEEE Student Branch
+## Chair of IEEE Student Branch
 
 ### 2022 until now
 
