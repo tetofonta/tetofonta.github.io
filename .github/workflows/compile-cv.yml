@@ -1,8 +1,6 @@
 name: Compila cv
 on:
   push:
-    branches:
-      - 'master'
     tags:
       - 'CV*'
 
