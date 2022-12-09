@@ -237,6 +237,7 @@ cv:
     skills: 
       - cv/skills/Z-skills.md
     other:
+      - cv/other/X-ieee-chair.md
       - cv/other/Y-ieee-vice-chair.md
       - cv/other/Z-judo.md
 
