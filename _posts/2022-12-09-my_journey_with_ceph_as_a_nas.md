@@ -81,15 +81,26 @@ End of the story: you can't expand a RAID configuration while maintaining all of
 
 ## Let's talk about Ceph
 
+Ceph is a software defined storage platform made for high availability storage clusters. It abstracts the view of storage to a resilient cluster.
 
+### Features
+  - Extensibility and ha
+  
+  todo
+
+### Adaptation
+
+Because I cannot afford a full fledged storage cluster, I started planning a method of reducing it to a small machine. 
+
+#### Ideal architecture
+
+1 host
+  - 1 Small SSD for boot (~60GB)
+  - 2 SSD for cache tiering? - this has to be tested because cache tiering can degrade performance!
+  - 3 HDD for storage with an erasure code
 
 
 ## Additional resources
  - https://www.abakus.si/download/events/2018_sergej_rozman_raid-ceph.pdf
- - https://blog.devgenius.io/ceph-install-single-node-cluster-55b21e6fdaa2
- - https://balderscape.medium.com/setting-up-a-virtual-single-node-ceph-storage-cluster-d86d6a6c658e
- - https://linoxide.com/hwto-configure-single-node-ceph-cluster/
- - https://vineetcic.medium.com/how-to-remove-add-osd-from-ceph-cluster-1c038eefe522
- - https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/5/html/operations_guide/management-of-osds-using-the-ceph-orchestrator#removing-the-osd-daemons-using-the-ceph-orchestrator_ops
- - https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/4/html/operations_guide/handling-a-disk-failure#replacing-a-failed-osd-disk_ops
- - https://arpnetworks.com/blog/2019/06/28/how-to-update-the-device-class-on-a-ceph-osd.html
+ - https://docs.ceph.com/en/latest/rados/operations/erasure-code/
+ - https://lists.ceph.io/hyperkitty/list/ceph-users@ceph.io/thread/ZJCYFAIUSPJGJFDIMVYOZ4K4AAM2BLL7/
