@@ -11,7 +11,7 @@ mathjax: true
 mathjax_autoNumber: true
 ---
 
-I'm planning from a long time to build/buy a small little NAS system for my personal storage.
+I've been planning from a long time to build/buy a small little NAS system for my personal storage.
 When I first researched the topic and checked for some available solutions I discovered how many solutions are there to be "ready to use", from the prebuilt and ready to use Qnap solutions with two mirror disks to the more DIY and hardware recycling solution of TrueNas.
 
 My first tackle to this topic was an old FreeNAS installation (yep, a long long time ago) on an older HPE server dating back to the 2000's so power hungry and inefficient to be capable of tripping the breakers by powering up.
@@ -33,9 +33,9 @@ I recognize that my thoughts are a little biased by my work/field of study and s
 ## My problems with TrueNAS (and ex FreeNAS)
 
 TrueNAS is a very well made system for home and enterprise storage solutions. I have no doubts.
-They also offer the Hyperconverged Compute & Storage capable verion TrueNAS Scale which yet I haven't tried but there is still the one little problem: disk scalability.
+They also offer the Hyperconverged Compute & Storage capable version TrueNAS Scale which yet I haven't tried but there is still the one little problem: disk scalability.
 
-Last time I used TrueNAS it was an ok experience with everything working fine but with some rough patches. First of all I'm not a fan of FreeBSD with it's strange standards and inner workings. That made everything more complex. Plus add the fact that Bhyve does not work with some installers (\*coff\* \*coff\* ubuntu (: ) and that it is a nightmare...
+Last time I used TrueNAS it was an ok experience with everything working fine but with some rough patches. First of all I'm not a fan of FreeBSD with it's strange standards and inner workings. That made everything more complex. Plus add the fact that Bhyve does not work with some installers (\*cough\* \*cough\* ubuntu (: ) and that it is a nightmare...
 
 ## The problem with RAID
 
@@ -58,9 +58,9 @@ There are lots of problems with any RAID configuration or ZFS. Before talking ab
 
   - **RAID X+0**: This is a good talk to do. This is one of the most adopted solutions and consists of striping RAID 5's or 6's such that your disks are grouped in "failure domains" generally of 5-10 disks.
     
-    First of all, we are definitly exceeding the "Home NAS" thing because 10-20 disks will take a lot of space and processing power.
+    First of all, we are definitely exceeding the "Home NAS" thing because 10-20 disks will take a lot of space and processing power.
 
-    You can loose up to 1/2 disks per failure domain and be some what safe. Some people say that in a `(RAID5(4))*3` (_A striping configuration of three RAID 5 failure domains_) you can loose up to three disks. What if you lose two disk in the same failure domain? Say goodby to your data :)
+    You can loose up to 1/2 disks per failure domain and be some what safe. Some people say that in a `(RAID5(4))*3` (_A striping configuration of three RAID 5 failure domains_) you can loose up to three disks. What if you lose two disk in the same failure domain? Say goodbye to your data :)
 
 ### RAID Extension
 

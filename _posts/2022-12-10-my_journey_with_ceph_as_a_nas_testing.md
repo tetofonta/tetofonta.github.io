@@ -421,6 +421,12 @@ ceph orch daemon add osd localhost.localdomain:/dev/sdf
 
 Another way of expanding is to remove an existing disk, wait for cluster rebalance and then add a new bigger disk. ceph should handle this ssituation but you'll get a disk with more IOPS and more data into it. Be sure that all the data in the bigger disck can be moved to the others!
 
+## Update
+
+I'm writing this update after some testing and this is what has gone wrong or needed some tweaks:
+ - I've expanded the RAM amount for the VM and set it at 8GB because things can get pretty slow pretty fast when using caching and rebuilding.
+ - Also I made a small tweak to ceph configuration from the web ui by setting osd_memory_target to 1GB instead of 4GB... this was needed because 5 osd * 4 GB > 8GB and things went bad once while testing expansion capabilities.
+
 ## Additional resources
  - https://blog.devgenius.io/ceph-install-single-node-cluster-55b21e6fdaa2
  - https://balderscape.medium.com/setting-up-a-virtual-single-node-ceph-storage-cluster-d86d6a6c658e
