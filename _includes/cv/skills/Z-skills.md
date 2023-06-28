@@ -14,14 +14,15 @@ Good skills in small groups management and interaction with other teams
 
 ### Professional Skills
 
- - Advanced knowledge of hardware and electronics
- - Good networking and sysadmin skills
- - Basic Telecommunications skills
+ - Advanced networking and sysadmin skills
  - Good network planning skills
+ - Basic Telecommunications skills
+ - Good knowledge of hardware design and digital electronics
  - Good skills in hardware debug and low level programming
+ - Good Matlab skills
+ - Basic mechanical skills
 
-#### Known Languages
-
+#### Known Programming Languages
 
  - C: Advanced
  - C++: Advanced
@@ -31,6 +32,7 @@ Good skills in small groups management and interaction with other teams
  - SQL: Advanced
  - Bash: Advanced
  - Python: Advanced
+ - Matlab: Good
  - Rust: Medium
  - PHP: Medium
  - Assembly (ARM and x86): Medium
@@ -38,20 +40,29 @@ Good skills in small groups management and interaction with other teams
 
 #### Known Frameworks and Libraries
 
- - Medium skills administring Wordpress
- - ReactJS and AngularJS
- - express-js
- - Nest.js
+ - Javascript and Typescript
+    - **ReactJS** and **AngularJS** frontend frameworks
+    - **express-js** web server
+    - **Nest.js** web server and micro-services framework
+ - PHP
+    - **Laravel**
+ - Python
+    - **pandas** and **numpy** data analysis libraries
+    - **PuLP** python linear programming problem optimization
+ - Java
+    - **Gurobi**  
+ - Medium skills administering Wordpress
 
 #### Known tools and instruments
 
  - Advanced git knowledge
  - Good Github knowledge including github actions
- - Jetbrains space management
  - Good knowledge of Jenkins incluing configuration and availability settings
- - Proxmox: Configuration and management
+ - Proxmox: deployment and management
+ - Kubernetes: deployment and management
+ - Ceph storage cluster: deployment and management
  - Docker: infrastructure provisioning and deployment
- - Basic knowledge and configuration of Ceph 
+ - Deployment and management of single sign-on services
  - LATEX
  - Blockchain development and deployment
  - Bitcoin and Lightning network

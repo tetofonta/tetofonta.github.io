@@ -1,7 +1,7 @@
 
-## Vice Chair di IEEE Student Branch 
+### Vice Chair di IEEE Student Branch 
 
-### dal 2021 al 2022
+#### dal 2021 al 2022
 
 Vice chair dell'associazione studentesca **IEEE Student Branch 1019**.
 

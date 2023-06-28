@@ -1,7 +1,7 @@
 
-## Vice Chair of IEEE Student Branch
+### Vice Chair of IEEE Student Branch
 
-### from 2021 to 2022
+#### from 2021 to 2022
 
 Vice chair of University of Brescia - affiliated - **IEEE Student Branch 1019**.
 

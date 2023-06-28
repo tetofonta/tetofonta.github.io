@@ -228,6 +228,7 @@ plugins:
 cv:
     personal_data: cv/personal_data/Z-personal_data.md
     professional_experience:
+      - cv/professional_experience/X-ziche.md
       - cv/professional_experience/Y-bitcoinpeople.md
       - cv/professional_experience/Z-sap-stage.md
     education:

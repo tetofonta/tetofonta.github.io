@@ -1,7 +1,7 @@
 
-## From 2014 to 2019
+### From 2014 to 2019
 
-### Technical Institute Diploma in the Technological Sector, Information Technology and Telecommunications, Information Technology department
+#### Technical Institute Diploma in the Technological Sector, Information Technology and Telecommunications, Information Technology department
 
 I.I.S. B.Castelli, Brescia (BS),
 
