@@ -19,15 +19,15 @@ jobs:
         with:
           root_file: cv.tex
           working_directory: ./cv_latex
-          compiler: pdflatex
-          args: "-parse-first-line -shell-escape -interaction=nonstopmode -file-line-error -halt-on-error"
+          compiler: latexmk
+          args: "-pdf -parse-first-line -shell-escape -interaction=nonstopmode -file-line-error -halt-on-error"
       - name: Compile latex document (it)
         uses: xu-cheng/latex-action@v2
         with:
           root_file: cv_it.tex
           working_directory: ./cv_latex
-          compiler: pdflatex
-          args: "-parse-first-line -shell-escape -interaction=nonstopmode -file-line-error -halt-on-error"
+          compiler: latexmk
+          args: "-pdf -parse-first-line -shell-escape -interaction=nonstopmode -file-line-error -halt-on-error"
       - name: Release
         uses: softprops/action-gh-release@v1
         with:

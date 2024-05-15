@@ -1,5 +1,5 @@
 
-### 2022 until now
+### from 2022 until now
 
 #### Computer Science and Engineering Intelligent Technologies and Systems Degree
 

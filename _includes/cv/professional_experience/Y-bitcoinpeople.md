@@ -2,8 +2,8 @@
 ### Backend software developer for blockchain systems
 #### from 2020 to 2022
 
-Worked as programmer and internal network sistemist with the main role as backend developer’s chief.
+Served as the Chief Backend Developer and Internal Network System Administrator, overseeing a team of developers and managing critical backend operations.
 
-The most relevant technologies used and administrated in this period are Proxmox as the main cluster hypervisor, vyos as the network firewall and, as for the working area, softwares and services like bitcoind, lnd, NBXplorer and BTCPayServer.
+Key technologies utilized and administered during this period include Proxmox as the primary cluster hypervisor and VyOS as the network firewall. Additionally, managed and implemented various software and services within the working environment, such as Bitcoind, LND, NBXplorer, and BTCPayServer.
 
-*Bitcoinpeople s.r.l., Via Cipro, 66, 25124 - BRESCIA (BS) ITALY*
+*Bitcoinpeople s.r.l., Via Cipro 66, 25124 - BRESCIA (BS) ITALY*

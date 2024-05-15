@@ -9,7 +9,7 @@ aside:
 
 <div style="display: flex; flex-direction: row; justify-content: flex-start;">
 
-    <div style="background-image: url('/assets/images/profile.jpeg'); display: block; width: 40%; padding-bottom: 40%; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
+    <div style="background-image: url('/assets/images/profile.png'); display: block; width: 40%; padding-bottom: 40%; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
 
     <div style="padding-left: 2rem">
 

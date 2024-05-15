@@ -34,6 +34,7 @@ Buona esperienza nella gestione di piccoli gruppi di sviluppo e interazione con 
  - Python: Avanzata
  - Matlab: Buona
  - Rust: Media
+ - Go: Media
  - PHP: Media
  - Assembly (ARM and x86): Media
  - Siemens S7: Base
@@ -60,7 +61,9 @@ Buona esperienza nella gestione di piccoli gruppi di sviluppo e interazione con 
  - Buone competenze nell'amministrazione e nel deploy di Jenkins
  - Proxmox: deployment e Amministrazione
  - Kubernetes: deployment e gestione
- - Ceph: deployment e gestione
+ - Ceph: deployment e gestione.
+ - KrakenD: Setup
+ - Opentelemetry: Deployment e integrazione
  - Docker: provisioning e deployment
  - Deployment e amministrazione di sistemi di single sign-on
  - LATEX

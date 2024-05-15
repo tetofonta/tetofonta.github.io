@@ -6,4 +6,6 @@ Università degli studi di Brescia, facoltà di Ingegneria, Dipartimento di Inge
 
 Laurea di primo livello in Ingegneria Informatica -- Classe L-8
 
-Laureato con 108/110
+Titolo della tesi: *Sviluppo di un sistema di supporto alla programmazione per dispositivi integrati della famiglia AVR* <span style="display: none">[@FontanaSviluppodiun2022]</span>
+
+Laureato con **108/110**

@@ -16,7 +16,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-  header_image: /assets/images/profile.jpeg
+  header_image: /assets/images/profile.png
 ---
 
 <!--more-->
@@ -29,5 +29,5 @@ article_header:
       </p>
     </div>
 
-    <div style="background-image: url('/assets/images/profile.jpeg'); display: block; width: 256px; padding-bottom: 256px; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
+    <div style="background-image: url('/assets/images/profile.png'); display: block; width: 256px; padding-bottom: 256px; background-position: center;background-size: contain; background-repeat: no-repeat"></div>
 </div>

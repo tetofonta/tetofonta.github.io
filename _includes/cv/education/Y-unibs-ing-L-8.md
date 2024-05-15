@@ -7,4 +7,6 @@ Università degli studi di Brescia, facoltà di ingegneria, Information Engineer
 
 Bachelor's degree (First level) in Computer science and Engineering  Engineering - Class L-8
 
-Graduated with 108/110
+Thesis title: *Sviluppo di un sistema di supporto alla programmazione per dispositivi integrati della famiglia AVR* <span style="display: none">[@FontanaSviluppodiun2022]</span>
+
+Graduated with **108/110**
