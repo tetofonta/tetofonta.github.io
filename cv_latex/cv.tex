@@ -10,7 +10,12 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
-\usepackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}
+\usepackage[citations=true,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}
+
+\usepackage[backend=bibtex,doi=false,isbn=false,mincitenames=1,maxcitenames=4,style=ieee]{biblatex}
+\DeclareFieldFormat{sentencecase}{#1}
+\DeclareFieldFormat{titlecase}{#1}
+\addbibresource{bibliography.bib}
 
 \setcounter{secnumdepth}{0}
 
@@ -41,8 +46,8 @@
 \def\app@exe{\immediate\write18}
 \def\inputAllFiles#1#2{%
     \app@exe{ls #1/*.md | xargs cat >> #2}%
-    \IfFileExists{#2}{
-        \markdownInput{#2}
+    \IfFileExists{#2}{%
+        \markdownInput{#2}%
     }
     \AtEndDocument{\app@exe{rm -f #2}}
   }
@@ -55,7 +60,7 @@
 \begin{abstract}
     \vspace{8mm}
     \begin{minipage}{.3\textwidth}
-        \includegraphics[width=0.9\textwidth]{../assets/images/profile.jpeg}
+        \includegraphics[width=0.9\textwidth]{../assets/images/profile.png}
     \end{minipage}
     \hfill
     \begin{minipage}{.5\textwidth}
@@ -63,7 +68,7 @@
     \end{minipage}
     \hfill
     \\ \\ \\
-    Stefano Fontana is currently a student at University of Brescia studying Computer science and engineering. 
+    Stefano Fontana is currently a student at University of Brescia studying Computer science and engineering. \cite{FontanaSviluppodiun2022}
 \end{abstract}
 
 \section{Professional Experience}
@@ -78,5 +83,9 @@
 \section{Other activities}
 \inputAllFiles{../_includes/cv/other}{oth.md}
 
+%bibliography
+\clearpage
+\nocite{*}
+\printbibliography[title={Bibliografia e Sitografia}, heading=bibintoc]%
 
 \end{document}
