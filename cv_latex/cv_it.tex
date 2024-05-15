@@ -10,8 +10,11 @@
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
-\usepackage[fencedCode,inlineFootnotes,citations,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}
-\usepackage[backend=bibtex,style=ieee]{biblatex}
+\usepackage[citations=true,definitionLists,hashEnumerators,smartEllipses,hybrid]{markdown}
+
+\usepackage[backend=bibtex,doi=false,isbn=false,mincitenames=1,maxcitenames=4,style=ieee]{biblatex}
+\DeclareFieldFormat{sentencecase}{#1}
+\DeclareFieldFormat{titlecase}{#1}
 \addbibresource{bibliography.bib}
 
 
