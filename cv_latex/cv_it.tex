@@ -47,11 +47,10 @@
 \def\app@exe{\immediate\write18}
 \def\inputAllFiles#1#2{%
     \app@exe{ls #1/*.md | xargs cat >> #2}%
-    \IfFileExists{#2}{
-        \app@exe{cat #2 | sed -r 's/\\cite{.*}//' > #2}%
+    \IfFileExists{#2}{%
         \markdownInput{#2}%
     }
-    %\AtEndDocument{\app@exe{rm -f #2}}
+    \AtEndDocument{\app@exe{rm -f #2}}
   }
 \makeatother
 

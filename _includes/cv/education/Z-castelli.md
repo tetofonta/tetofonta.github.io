@@ -5,6 +5,6 @@
 
 I.I.S. B.Castelli, Brescia (BS),
 
-Graduated with 100/100
+Graduated with **100/100**
 
 *pre-university study*

@@ -5,6 +5,6 @@
 
 I.I.S. B.Castelli, Brescia (BS), 
 
-Diplomato con 100/100
+Diplomato con **100/100**
 
 *studio pre-universitario*
