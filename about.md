@@ -5,7 +5,7 @@ aside:
   toc: true
 ---
 
-## Informazioni personali
+## Personal Informations
 
 <div style="display: flex; flex-direction: row; justify-content: flex-start;">
 
@@ -27,6 +27,11 @@ aside:
 ## Education
 {% for edu in site.cv.education%}
   {% include {{edu}} %}
+{%endfor%}
+
+## Publications
+{% for pub in site.cv.publications%}
+  {% include {{pub}} %}
 {%endfor%}
 
 ## Skills

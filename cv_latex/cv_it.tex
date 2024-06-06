@@ -87,6 +87,10 @@
 
 %bibliography
 \clearpage
-\printbibliography
+\printbibliography[notkeyword=notref,title={References}]
+
+\nocite{*}
+\printbibliography[keyword=notref,title={Publications}]
+
 
 \end{document}

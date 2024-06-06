@@ -242,6 +242,8 @@ cv:
       - cv/other/X-ieee-chair.md
       - cv/other/Y-ieee-vice-chair.md
       - cv/other/Z-judo.md
+    publications:
+      - cv/publications/Z-Can-platoons-form-on-their-own.md
 
 collections:
   - projects
